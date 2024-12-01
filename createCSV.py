@@ -1,7 +1,5 @@
-import time
 import zmq
 import csv
-import json
 
 
 def createCSV():
