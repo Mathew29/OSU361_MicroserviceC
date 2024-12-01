@@ -17,7 +17,7 @@ def createCSV():
                 csv_file_path = 'data.csv'
                 with open(csv_file_path, mode='w', newline='', encoding='utf-8') as file:
                     fieldnames = ['asin', 'name', 'price',
-                                  'discount', 'record_date']
+                                  'discount', 'record_date', 'url']
                     writer = csv.DictWriter(file, fieldnames=fieldnames)
 
                     writer.writeheader()
